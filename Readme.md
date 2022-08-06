@@ -4,7 +4,7 @@ The communication with the host pc is trough gigabit ethernet.
 The protocol used is etherbone.
 The firmware is written in migen, using Litex framework.
 
-Lcnc is my own interpretation of colorcnc form 
+Lcnc is my own interpretation of colorcnc from 
 Roman Pechenko <romanetz4@gmail.com> "romanetz"
 https://forum.linuxcnc.org/27-driver-boards/44422-colorcnc
 
