@@ -1,0 +1,256 @@
+svb@LiteXCNC-hdev:~/GIT.svb/Fabio-Lcnc/build$ halrun 
+halcmd: loadrt Lcnc 
+Note: Using POSIX realtime
+Lcnc: hal_init() ok
+Lcnc: hal_malloc() ok
+Lcnc: connected to board 
+Lcnc: installed driver for 1 card(s)
+halcmd: show all 
+Loaded HAL Components:
+ID      Type  Name                                            PID   State
+     4  RT    Lcnc                                                  ready
+     2  User  halcmd2030                                       2030 ready
+
+Component Pins:
+Owner   Type  Dir         Value  Name
+     4  bit   IN          FALSE  Lcnc.00.enable
+     4  bit   IN          FALSE  Lcnc.00.enable-request
+     4  bit   OUT         FALSE  Lcnc.00.enabled
+     4  bit   IN          FALSE  Lcnc.00.encoder.00.enable
+     4  float OUT             0  Lcnc.00.encoder.00.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.00.reset
+     4  float OUT             0  Lcnc.00.encoder.00.vel-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.01.enable
+     4  float OUT             0  Lcnc.00.encoder.01.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.01.reset
+     4  float OUT             0  Lcnc.00.encoder.01.vel-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.02.enable
+     4  float OUT             0  Lcnc.00.encoder.02.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.02.reset
+     4  float OUT             0  Lcnc.00.encoder.02.vel-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.03.enable
+     4  float OUT             0  Lcnc.00.encoder.03.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.03.reset
+     4  float OUT             0  Lcnc.00.encoder.03.vel-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.04.enable
+     4  float OUT             0  Lcnc.00.encoder.04.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.04.reset
+     4  float OUT             0  Lcnc.00.encoder.04.vel-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.05.enable
+     4  float OUT             0  Lcnc.00.encoder.05.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.encoder.05.reset
+     4  float OUT             0  Lcnc.00.encoder.05.vel-fb
+     4  bit   OUT         FALSE  Lcnc.00.input.00.in
+     4  bit   OUT         FALSE  Lcnc.00.input.00.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.01.in
+     4  bit   OUT         FALSE  Lcnc.00.input.01.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.02.in
+     4  bit   OUT         FALSE  Lcnc.00.input.02.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.03.in
+     4  bit   OUT         FALSE  Lcnc.00.input.03.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.04.in
+     4  bit   OUT         FALSE  Lcnc.00.input.04.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.05.in
+     4  bit   OUT         FALSE  Lcnc.00.input.05.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.06.in
+     4  bit   OUT         FALSE  Lcnc.00.input.06.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.07.in
+     4  bit   OUT         FALSE  Lcnc.00.input.07.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.08.in
+     4  bit   OUT         FALSE  Lcnc.00.input.08.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.09.in
+     4  bit   OUT         FALSE  Lcnc.00.input.09.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.10.in
+     4  bit   OUT         FALSE  Lcnc.00.input.10.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.11.in
+     4  bit   OUT         FALSE  Lcnc.00.input.11.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.12.in
+     4  bit   OUT         FALSE  Lcnc.00.input.12.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.13.in
+     4  bit   OUT         FALSE  Lcnc.00.input.13.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.14.in
+     4  bit   OUT         FALSE  Lcnc.00.input.14.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.15.in
+     4  bit   OUT         FALSE  Lcnc.00.input.15.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.16.in
+     4  bit   OUT         FALSE  Lcnc.00.input.16.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.17.in
+     4  bit   OUT         FALSE  Lcnc.00.input.17.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.18.in
+     4  bit   OUT         FALSE  Lcnc.00.input.18.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.19.in
+     4  bit   OUT         FALSE  Lcnc.00.input.19.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.20.in
+     4  bit   OUT         FALSE  Lcnc.00.input.20.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.21.in
+     4  bit   OUT         FALSE  Lcnc.00.input.21.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.22.in
+     4  bit   OUT         FALSE  Lcnc.00.input.22.in-n
+     4  bit   OUT         FALSE  Lcnc.00.input.23.in
+     4  bit   OUT         FALSE  Lcnc.00.input.23.in-n
+     4  bit   IN          FALSE  Lcnc.00.output.00.out
+     4  bit   IN          FALSE  Lcnc.00.output.01.out
+     4  bit   IN          FALSE  Lcnc.00.output.02.out
+     4  bit   IN          FALSE  Lcnc.00.output.03.out
+     4  bit   IN          FALSE  Lcnc.00.output.04.out
+     4  bit   IN          FALSE  Lcnc.00.output.05.out
+     4  bit   IN          FALSE  Lcnc.00.output.06.out
+     4  bit   IN          FALSE  Lcnc.00.output.07.out
+     4  bit   IN          FALSE  Lcnc.00.output.08.out
+     4  bit   IN          FALSE  Lcnc.00.output.09.out
+     4  bit   IN          FALSE  Lcnc.00.output.10.out
+     4  bit   IN          FALSE  Lcnc.00.output.11.out
+     4  bit   IN          FALSE  Lcnc.00.output.12.out
+     4  bit   IN          FALSE  Lcnc.00.output.13.out
+     4  bit   IN          FALSE  Lcnc.00.output.14.out
+     4  bit   IN          FALSE  Lcnc.00.output.15.out
+     4  bit   IN          FALSE  Lcnc.00.output.16.out
+     4  bit   IN          FALSE  Lcnc.00.output.17.out
+     4  bit   IN          FALSE  Lcnc.00.output.18.out
+     4  bit   IN          FALSE  Lcnc.00.output.19.out
+     4  bit   IN          FALSE  Lcnc.00.output.20.out
+     4  bit   IN          FALSE  Lcnc.00.output.21.out
+     4  bit   IN          FALSE  Lcnc.00.output.22.out
+     4  bit   IN          FALSE  Lcnc.00.output.23.out
+     4  bit   IN          FALSE  Lcnc.00.pwm.00.enable
+     4  float IN              0  Lcnc.00.pwm.00.freq
+     4  float IN              0  Lcnc.00.pwm.00.value
+     4  bit   IN          FALSE  Lcnc.00.pwm.01.enable
+     4  float IN              0  Lcnc.00.pwm.01.freq
+     4  float IN              0  Lcnc.00.pwm.01.value
+     4  bit   IN          FALSE  Lcnc.00.pwm.02.enable
+     4  float IN              0  Lcnc.00.pwm.02.freq
+     4  float IN              0  Lcnc.00.pwm.02.value
+     4  float IN              0  Lcnc.00.stepgen.00.acc_lim
+     4  bit   IN          FALSE  Lcnc.00.stepgen.00.enable
+     4  float OUT             0  Lcnc.00.stepgen.00.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.stepgen.00.reset
+     4  float IN              0  Lcnc.00.stepgen.00.vel-cmd
+     4  float OUT             0  Lcnc.00.stepgen.00.vel-fb
+     4  float IN              0  Lcnc.00.stepgen.01.acc_lim
+     4  bit   IN          FALSE  Lcnc.00.stepgen.01.enable
+     4  float OUT             0  Lcnc.00.stepgen.01.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.stepgen.01.reset
+     4  float IN              0  Lcnc.00.stepgen.01.vel-cmd
+     4  float OUT             0  Lcnc.00.stepgen.01.vel-fb
+     4  float IN              0  Lcnc.00.stepgen.02.acc_lim
+     4  bit   IN          FALSE  Lcnc.00.stepgen.02.enable
+     4  float OUT             0  Lcnc.00.stepgen.02.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.stepgen.02.reset
+     4  float IN              0  Lcnc.00.stepgen.02.vel-cmd
+     4  float OUT             0  Lcnc.00.stepgen.02.vel-fb
+     4  float IN              0  Lcnc.00.stepgen.03.acc_lim
+     4  bit   IN          FALSE  Lcnc.00.stepgen.03.enable
+     4  float OUT             0  Lcnc.00.stepgen.03.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.stepgen.03.reset
+     4  float IN              0  Lcnc.00.stepgen.03.vel-cmd
+     4  float OUT             0  Lcnc.00.stepgen.03.vel-fb
+     4  float IN              0  Lcnc.00.stepgen.04.acc_lim
+     4  bit   IN          FALSE  Lcnc.00.stepgen.04.enable
+     4  float OUT             0  Lcnc.00.stepgen.04.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.stepgen.04.reset
+     4  float IN              0  Lcnc.00.stepgen.04.vel-cmd
+     4  float OUT             0  Lcnc.00.stepgen.04.vel-fb
+     4  float IN              0  Lcnc.00.stepgen.05.acc_lim
+     4  bit   IN          FALSE  Lcnc.00.stepgen.05.enable
+     4  float OUT             0  Lcnc.00.stepgen.05.pos-fb
+     4  bit   IN          FALSE  Lcnc.00.stepgen.05.reset
+     4  float IN              0  Lcnc.00.stepgen.05.vel-cmd
+     4  float OUT             0  Lcnc.00.stepgen.05.vel-fb
+     4  s32   OUT             0  Lcnc.00.update.time
+     4  float OUT             0  Lcnc.00.wallclock.00.interval
+     4  u32   OUT    0x00000000  Lcnc.00.wallclock.00.value
+     4  float OUT             0  Lcnc.00.watchdog-read
+
+Pin Aliases:
+ Alias                                            Original Name
+
+Signals:
+Type          Value  Name     (linked to)
+
+Parameters:
+Owner   Type  Dir         Value  Name
+     4  bit   RW          FALSE  Lcnc.00.encoder.00.inv
+     4  float RW              1  Lcnc.00.encoder.00.scale
+     4  bit   RW          FALSE  Lcnc.00.encoder.01.inv
+     4  float RW              1  Lcnc.00.encoder.01.scale
+     4  bit   RW          FALSE  Lcnc.00.encoder.02.inv
+     4  float RW              1  Lcnc.00.encoder.02.scale
+     4  bit   RW          FALSE  Lcnc.00.encoder.03.inv
+     4  float RW              1  Lcnc.00.encoder.03.scale
+     4  bit   RW          FALSE  Lcnc.00.encoder.04.inv
+     4  float RW              1  Lcnc.00.encoder.04.scale
+     4  bit   RW          FALSE  Lcnc.00.encoder.05.inv
+     4  float RW              1  Lcnc.00.encoder.05.scale
+     4  bit   RW          FALSE  Lcnc.00.output.00.inv
+     4  bit   RW          FALSE  Lcnc.00.output.01.inv
+     4  bit   RW          FALSE  Lcnc.00.output.02.inv
+     4  bit   RW          FALSE  Lcnc.00.output.03.inv
+     4  bit   RW          FALSE  Lcnc.00.output.04.inv
+     4  bit   RW          FALSE  Lcnc.00.output.05.inv
+     4  bit   RW          FALSE  Lcnc.00.output.06.inv
+     4  bit   RW          FALSE  Lcnc.00.output.07.inv
+     4  bit   RW          FALSE  Lcnc.00.output.08.inv
+     4  bit   RW          FALSE  Lcnc.00.output.09.inv
+     4  bit   RW          FALSE  Lcnc.00.output.10.inv
+     4  bit   RW          FALSE  Lcnc.00.output.11.inv
+     4  bit   RW          FALSE  Lcnc.00.output.12.inv
+     4  bit   RW          FALSE  Lcnc.00.output.13.inv
+     4  bit   RW          FALSE  Lcnc.00.output.14.inv
+     4  bit   RW          FALSE  Lcnc.00.output.15.inv
+     4  bit   RW          FALSE  Lcnc.00.output.16.inv
+     4  bit   RW          FALSE  Lcnc.00.output.17.inv
+     4  bit   RW          FALSE  Lcnc.00.output.18.inv
+     4  bit   RW          FALSE  Lcnc.00.output.19.inv
+     4  bit   RW          FALSE  Lcnc.00.output.20.inv
+     4  bit   RW          FALSE  Lcnc.00.output.21.inv
+     4  bit   RW          FALSE  Lcnc.00.output.22.inv
+     4  bit   RW          FALSE  Lcnc.00.output.23.inv
+     4  bit   RW          FALSE  Lcnc.00.pwm.00.inv
+     4  float RW              0  Lcnc.00.pwm.00.offs
+     4  float RW            100  Lcnc.00.pwm.00.scale
+     4  bit   RW          FALSE  Lcnc.00.pwm.01.inv
+     4  float RW              0  Lcnc.00.pwm.01.offs
+     4  float RW            100  Lcnc.00.pwm.01.scale
+     4  bit   RW          FALSE  Lcnc.00.pwm.02.inv
+     4  float RW              0  Lcnc.00.pwm.02.offs
+     4  float RW            100  Lcnc.00.pwm.02.scale
+     4  float RW            0.1  Lcnc.00.stepgen-dir_width
+     4  float RW              1  Lcnc.00.stepgen-setup_time
+     4  float RW            0.1  Lcnc.00.stepgen-step_space
+     4  float RW            0.1  Lcnc.00.stepgen-step_width
+     4  bit   RW          FALSE  Lcnc.00.stepgen.00.dir_inv
+     4  float RW              1  Lcnc.00.stepgen.00.scale
+     4  bit   RW          FALSE  Lcnc.00.stepgen.00.step_inv
+     4  bit   RW          FALSE  Lcnc.00.stepgen.01.dir_inv
+     4  float RW              1  Lcnc.00.stepgen.01.scale
+     4  bit   RW          FALSE  Lcnc.00.stepgen.01.step_inv
+     4  bit   RW          FALSE  Lcnc.00.stepgen.02.dir_inv
+     4  float RW              1  Lcnc.00.stepgen.02.scale
+     4  bit   RW          FALSE  Lcnc.00.stepgen.02.step_inv
+     4  bit   RW          FALSE  Lcnc.00.stepgen.03.dir_inv
+     4  float RW              1  Lcnc.00.stepgen.03.scale
+     4  bit   RW          FALSE  Lcnc.00.stepgen.03.step_inv
+     4  bit   RW          FALSE  Lcnc.00.stepgen.04.dir_inv
+     4  float RW              1  Lcnc.00.stepgen.04.scale
+     4  bit   RW          FALSE  Lcnc.00.stepgen.04.step_inv
+     4  bit   RW          FALSE  Lcnc.00.stepgen.05.dir_inv
+     4  float RW              1  Lcnc.00.stepgen.05.scale
+     4  bit   RW          FALSE  Lcnc.00.stepgen.05.step_inv
+     4  u32   RW     0x00000005  Lcnc.00.tx-max-retries
+     4  s32   RW              0  Lcnc.00.update.tmax
+     4  bit   RO          FALSE  Lcnc.00.update.tmax-increased
+     4  float RW           0.01  Lcnc.00.watchdog-write
+
+Parameter Aliases:
+ Alias                                            Original Name
+
+Exported Functions:
+Owner   CodeAddr  Arg       FP   Users  Name
+ 00004  7f2d60c2b364  7f2d5fe85120  YES      0   Lcnc.00.update
+
+Realtime Threads:
+     Period  FP     Name               (     Time, Max-Time )
+
+halcmd: 
+

@@ -1,0 +1,13 @@
+T1 P1 Z0.511 D2.5 ;Drill 
+T2 P2 Z0.1 D2.5 ;Tip drill 
+T3 P3 Z1.273 D3.2 ;Drill 
+T4 P4 Z1.273 D6 ;#7 tap drill 
+T5 P5 Z1.273 D3 ;End Mill 
+T6 P6 Z1.273 D6 ;#7 tap drill 
+T7 P7 Z1.273 D6 ;End Mill 
+T8 P8 Z1.273 D6 ;#7 tap drill 
+T9 P9 Z1.273 D6 ;#7 tap drill 
+T10 P10 Z1.273 D3 ;#10 tap 
+T11 P11 Z1.273 D6 ;#7 tap drill 
+T12 P12 Z1.273 D6 ;#7 tap drill 
+T99999 P99999 Z0.1 ;big tool number 
